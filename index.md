@@ -204,6 +204,7 @@ export function moveZeros(array: number[]): number[] {
 
 ### Codigo test:
 
+```TypeScript
 import 'mocha';
 import {expect} from 'chai';
 import {moveZeros} from '../src/ejercicio4';
