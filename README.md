@@ -1,2 +1,5 @@
-# ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-alu0101133355
-ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-alu0101133355 created by GitHub Classroom
+# Práctica 4: Tipos de datos estáticos y funciones. Informe.
+Universidad de La Laguna / Grado en Ingeniería Informática
+* Asignatura: Desarrollo de sistemas informáticos
+* Autor: Javier Martín de León - alu0101133355
+* GitHub Pages: 
