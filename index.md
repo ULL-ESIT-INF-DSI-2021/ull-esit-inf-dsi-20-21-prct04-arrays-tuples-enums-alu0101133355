@@ -496,7 +496,7 @@ describe('Ejercicio del agente ', () => {
 ### Imagen con el test de todos los ejercicios implementados
 
 
-![imagen](Imágenes/salidatest.png)
+![imagen](Imagenes/salidatest.png)
 
 
 
