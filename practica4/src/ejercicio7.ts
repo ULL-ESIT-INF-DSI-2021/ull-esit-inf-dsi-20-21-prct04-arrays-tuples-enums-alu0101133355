@@ -6,7 +6,7 @@ type Npoint = [number, number, number, ...number[]];
  * @param point_2 tipo creado Npoint que define las coordenadas de un punto n-dimensional
  * @returns tipo creado Npoint 
  */
-export function nPointAdd(point_1: Npoint, point_2: Npoint): Npoint {
+export function PointAdd(point_1: Npoint, point_2: Npoint): Npoint {
   if (point_1.length != point_2.length)
     throw 'Los puntos no son de la misma dimensión';
   
@@ -22,7 +22,7 @@ export function nPointAdd(point_1: Npoint, point_2: Npoint): Npoint {
  * @param point_2 es un tipo creado Npoint que define las coordenadas de un punto n-dimensional
  * @returns retorna un tipo creado Npoint 
  */
-export function nPointDiference(point_1: Npoint, point_2: Npoint): Npoint {
+export function PointDiference(point_1: Npoint, point_2: Npoint): Npoint {
   if (point_1.length != point_2.length)
     throw 'Los puntos no son de la misma dimensión';
   
@@ -38,7 +38,7 @@ export function nPointDiference(point_1: Npoint, point_2: Npoint): Npoint {
  * @param valor es una variable tipo number que contiene el multiplicando
  * @returns retorna un tipo creado Npoint 
  */
-export function nPointProduct(point: Npoint, valor: number): Npoint {
+export function PointProduct(point: Npoint, valor: number): Npoint {
 
   for (let i = 0; i < point.length; i++) 
     point[i] = point[i] * valor
@@ -52,7 +52,7 @@ export function nPointProduct(point: Npoint, valor: number): Npoint {
  * @param point_2 es un tipo creado Point que define las coordenadas de un punto n-dimensional
  * @returns retorna un tipo number con la distnacia euclidia calculada
  */
-export function nPointDistance(point_1: Npoint, point_2: Npoint): number {
+export function PointDistance(point_1: Npoint, point_2: Npoint): number {
   let result: number = 0;
   if (point_1.length != point_2.length)
   throw 'Los puntos no son de la misma dimensión';
